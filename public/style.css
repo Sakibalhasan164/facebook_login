@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: red; */
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    background-color: rgba(231, 241, 245, 0.514); 
+}
+
+.login-form{
+    /* background-color: lightblue; */
+    padding: 50px;
+    width:60%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 10px 26px rgba(0, 0, 0, .1);
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(48, 47, 47);
+    box-sizing: border-box;
+    border-radius: 5xcpx;
+}
+.submit{
+    width: 100%;
+    padding: 10px;
+    background:none;
+    border: none;
+    background-color: #166FE5;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.label{
+    font-weight: bolder;
+}
+
+.des{
+    /* background-color: red; */
+    position: absolute;
+    bottom: 50px;
+    font-weight: bolder;
+    width: 60%;
+    min-height: 5vh;
+}
+.note{
+    color: red;
+    font-size: 25px;
+}
+
+.emoji{
+    font-size: 45px;
+}
+
+
+.log-in{
+    color:#166FE5;
+    position: relative;
+    top: -30px;
+}
+
+
+@media screen and (max-width: 400px) {
+   
+    .login-form{
+        width: 94%;
+        height: 50vh;
+    }
+  .emoji{
+      font-size: 25px;
+  }
+  .des{
+      position: absolute;
+      bottom:50px;
+  }
+
+}
